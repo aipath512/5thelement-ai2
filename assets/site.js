@@ -1,0 +1,1 @@
+function setLang(lang){};document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('[data-static-form]').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();alert('Static preview: connect this form to Cloudflare Worker / CRM / email endpoint.')}))});
