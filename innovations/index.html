@@ -1,531 +1,259 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Innovations™ | 5THELEMENT.AI</title>
-<meta name="description" content="The five foundational innovations behind the AI Delivery Infrastructure™: Economic Twins™, MKT-INDIRECT™, WEB-AI™, AI Sonar™ and Mockingbird Handshake™.">
-
+<meta charset="utf-8" />
+<title>Innovations — 5THELEMENT.AI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="The five foundational innovations behind 5THELEMENT.AI: Economic Twins, MKT-INDIRECT, WEB-AI, AI Sonar and Mockingbird Handshake." />
+<link rel="canonical" href="https://5thelement.ai/innovations/" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
 <style>
 :root{
-  --bg:#0b1020;
-  --bg2:#11182d;
-  --card:#161f36;
-  --line:#2c3b63;
-  --text:#f5f7fb;
-  --muted:#a9b4cf;
-  --accent:#7dd3fc;
-  --accent2:#60a5fa;
-  --max:1200px;
+  --ink:#090908;
+  --ink-panel:#10100e;
+  --text:#f1eee6;
+  --muted:#b9b09e;
+  --dim:#7e7768;
+  --dimmer:#2b2923;
+  --gold:#c9a961;
+  --gold-deep:#9d8144;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --serif:"Instrument Serif","Playfair Display",Georgia,serif;
+  --sans:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
 }
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-
-body{
-  background:var(--bg);
-  color:var(--text);
-  font-family:Inter,Segoe UI,Arial,sans-serif;
-  line-height:1.7;
-}
-
-.container{
-  width:min(var(--max),92%);
-  margin:auto;
-}
-
-header{
-  padding:120px 0 80px;
-  background:
-  radial-gradient(circle at top right,#1e3a8a55,transparent 40%),
-  radial-gradient(circle at left,#0891b255,transparent 40%);
-}
-
-.hero-tag{
-  color:var(--accent);
-  font-size:.85rem;
-  text-transform:uppercase;
-  letter-spacing:2px;
-  margin-bottom:18px;
-}
-
-h1{
-  font-size:4rem;
-  line-height:1.05;
-  margin-bottom:25px;
-}
-
-.hero-sub{
-  max-width:900px;
-  color:var(--muted);
-  font-size:1.2rem;
-}
-
-section{
-  padding:90px 0;
-}
-
-h2{
-  font-size:2.6rem;
-  margin-bottom:25px;
-}
-
-h3{
-  font-size:1.6rem;
-  margin:30px 0 15px;
-}
-
-p{
-  margin-bottom:18px;
-}
-
-.card{
-  background:var(--card);
-  border:1px solid var(--line);
-  border-radius:18px;
-  padding:40px;
-  margin-top:35px;
-}
-
-.grid{
-  display:grid;
-  gap:30px;
-}
-
-.grid-2{
-  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-}
-
-.small{
-  color:var(--muted);
-}
-
-.innovation-number{
-  color:var(--accent);
-  font-size:.9rem;
-  letter-spacing:2px;
-  text-transform:uppercase;
-  margin-bottom:12px;
-}
-
-blockquote{
-  border-left:4px solid var(--accent);
-  padding-left:20px;
-  margin:25px 0;
-  color:#d7e3ff;
-}
-
-ul{
-  padding-left:22px;
-  margin-bottom:20px;
-}
-
-li{
-  margin-bottom:8px;
-}
-
-.architecture{
-  background:#0f172a;
-  border:1px solid var(--line);
-  border-radius:16px;
-  padding:25px;
-  overflow:auto;
-  font-family:Consolas,monospace;
-  margin:25px 0;
-}
-
-.cta{
-  text-align:center;
-  padding:120px 0;
-}
-
-.button{
-  display:inline-block;
-  margin:12px;
-  padding:16px 28px;
-  border-radius:12px;
-  text-decoration:none;
-  font-weight:600;
-}
-
-.primary{
-  background:var(--accent2);
-  color:white;
-}
-
-.secondary{
-  border:1px solid var(--line);
-  color:white;
-}
-
-footer{
-  padding:60px 0;
-  border-top:1px solid var(--line);
-  text-align:center;
-  color:var(--muted);
-}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ink);color:var(--text);font-family:var(--sans);font-weight:300}
+a{color:inherit}
+.l-page{min-height:100vh;background:radial-gradient(circle at 72% 8%,rgba(201,169,97,.08),transparent 30%),linear-gradient(180deg,var(--ink),#070706 60%,var(--ink))}
+.status-bar{border-bottom:1px solid var(--dimmer);padding:10px 56px;font-family:var(--mono);font-size:11px;color:var(--dim);display:flex;justify-content:space-between;gap:24px;letter-spacing:.02em;background:var(--ink)}
+.main-nav{display:flex;justify-content:space-between;align-items:center;padding:24px 56px;border-bottom:1px solid var(--dimmer);background:rgba(9,9,8,.88);position:sticky;top:0;z-index:50;backdrop-filter:blur(8px)}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none;color:inherit}.brand-mark{width:38px;height:38px;border:1.5px solid var(--gold);display:grid;place-items:center;font-family:var(--serif);font-size:24px;color:var(--gold);font-style:italic;line-height:1}.brand-title{font-family:var(--serif);font-size:21px;letter-spacing:.01em}.brand-sub{font-family:var(--mono);font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.14em}
+.nav-links{display:flex;gap:30px;font-family:var(--mono);font-size:12px}.nav-links a{color:var(--text);text-decoration:none}.nav-links a span{color:var(--dim)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 16px;border:1px solid var(--dimmer);color:var(--text);text-decoration:none;font-family:var(--mono);font-size:12px;letter-spacing:.04em;background:transparent}.btn:hover{border-color:var(--gold);color:var(--gold)}.btn-primary{background:var(--gold);color:var(--ink);border-color:var(--gold);font-weight:500}.btn-primary:hover{background:transparent;color:var(--gold)}
+.section{padding:82px 56px;border-top:1px solid var(--dimmer)}
+.hero{padding:76px 56px 88px;border-top:0}
+.breadcrumb{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.14em;text-transform:uppercase;margin-bottom:44px}
+.eyebrow{font-family:var(--mono);font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:.20em;margin-bottom:30px}
+h1,h2,h3,h4{font-weight:400;margin:0}
+h1{font-family:var(--serif);font-size:96px;line-height:.9;letter-spacing:-.035em;max-width:980px}
+h1 em{color:var(--gold);font-style:italic}
+.hero-copy{font-size:22px;line-height:1.45;margin:34px 0 0;max-width:760px;color:var(--muted)}
+.section-head{display:grid;grid-template-columns:7fr 5fr;gap:64px;margin-bottom:56px}.section h2{font-family:var(--serif);font-size:64px;line-height:.95;letter-spacing:-.025em}.section h2 em{color:var(--gold);font-style:italic}.meta{font-size:18px;line-height:1.55;color:var(--muted);max-width:540px}
+.ledger-head,.ledger-row{display:grid;grid-template-columns:60px 110px 1.7fr 1.1fr 1fr 80px;gap:24px}.ledger-head{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--dim);padding-bottom:14px;border-bottom:1px solid var(--gold)}.ledger-row{padding:22px 0;border-bottom:1px solid var(--dimmer);align-items:baseline}.ledger-row .num{font-family:var(--serif);font-style:italic;color:var(--gold-deep);font-size:22px}.ledger-row .code{font-family:var(--mono);font-size:12px;color:var(--gold);letter-spacing:.08em}.ledger-row .title{font-family:var(--serif);font-size:26px;color:var(--text);letter-spacing:-.01em}.ledger-row .sub{font-family:var(--serif);font-style:italic;font-size:17px;color:var(--dim)}.ledger-row .for{font-family:var(--mono);font-size:12px;color:var(--text);letter-spacing:.04em}.ledger-row a{font-family:var(--mono);font-size:11px;color:var(--gold);text-decoration:none}
+.innovation-expanded{padding:82px 56px;border-top:1px solid var(--dimmer)}.innovation-expanded-head{display:grid;grid-template-columns:5fr 7fr;gap:64px;margin-bottom:30px}.innovation-expanded h2{font-family:var(--serif);font-size:56px;line-height:.95;letter-spacing:-.025em}.innovation-expanded h2 em{color:var(--gold);font-style:italic}.innovation-block{display:grid;grid-template-columns:3.5fr 8.5fr;gap:64px;padding:48px 0;border-top:1px solid var(--dimmer)}.innovation-block:first-of-type{border-top:1px solid var(--gold)}.innovation-name{font-family:var(--serif);font-size:34px;line-height:1;letter-spacing:-.015em}.innovation-tagline{color:var(--gold);font-family:var(--serif);font-style:italic;font-size:24px;line-height:1.15;margin-top:12px}.innovation-note{margin-top:18px;font-family:var(--mono);font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.14em}.innovation-copy{max-width:820px;color:var(--muted);font-size:17px;line-height:1.72}.innovation-copy p{margin:0 0 18px}.innovation-copy strong{color:var(--text);font-weight:500}.innovation-copy blockquote{margin:28px 0;padding-left:20px;border-left:2px solid var(--gold);color:var(--text);font-family:var(--serif);font-style:italic;font-size:25px;line-height:1.35}.innovation-copy ul{margin:6px 0 18px;padding-left:20px;color:var(--muted);line-height:1.8}
+.proof-table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12px}.proof-table th{color:var(--gold);font-weight:400;text-transform:uppercase;letter-spacing:.14em;text-align:left;border-bottom:1px solid var(--gold);padding:12px}.proof-table td{border-bottom:1px solid var(--dimmer);padding:14px 12px;color:var(--muted);vertical-align:top}.hash{word-break:break-all;color:var(--text)}
+.footer{padding:54px 56px;border-top:1px solid var(--dimmer);font-family:var(--mono);font-size:12px;color:var(--dim)}
+@media(max-width:980px){.status-bar{padding:10px 20px;display:block}.main-nav{padding:18px 20px;align-items:flex-start;gap:18px;flex-direction:column}.nav-links{flex-wrap:wrap;gap:14px}.section-head,.innovation-expanded-head,.innovation-block{grid-template-columns:1fr}.hero,.section,.footer,.innovation-expanded{padding-left:20px;padding-right:20px}h1{font-size:58px}.section h2,.innovation-expanded h2{font-size:44px}.ledger-head{display:none}.ledger-row{grid-template-columns:1fr;gap:8px}}
 </style>
 </head>
-
 <body>
-
-<header>
-<div class="container">
-
-<div class="hero-tag">
-INNOVATION REGISTRY™
+<div class="status-bar">
+  <span><span style="color:var(--gold);">●</span>&nbsp; live · 5THELEMENT.AI · Innovation Registry™</span>
+  <span>AI Delivery Infrastructure™ · SHA-256 · OTS · Bitcoin proof</span>
+  <span style="color:var(--gold);">RO <span style="color:var(--dim);">/</span> EN</span>
 </div>
 
-<h1>
-The Foundational Technologies Behind The AI Delivery Infrastructure™
-</h1>
+<div class="l-page">
+<nav class="main-nav">
+  <a href="/" class="brand">
+    <div class="brand-mark">5</div>
+    <div style="display:flex;flex-direction:column;line-height:1.1;">
+      <span class="brand-title">5THELEMENT.AI</span>
+      <span class="brand-sub">machine economy · ADI</span>
+    </div>
+  </a>
+  <div class="nav-links">
+    <a href="/platform/">platform<span>.ts</span></a>
+    <a href="/innovations/">innovations<span>.ts</span></a>
+    <a href="/proof/">proof<span>.proof</span></a>
+    <a href="/resources/">resources<span>.md</span></a>
+    <a href="/about/">about<span>.ts</span></a>
+    <a href="/pilot/">pilot<span>.sh</span></a>
+  </div>
+  <a href="/pilot/" class="btn btn-primary">$ ./request_pilot</a>
+</nav>
 
-<p class="hero-sub">
-The Internet is no longer a human-only environment. AI agents, crawlers, answer engines, copilots and autonomous systems increasingly participate in search, comparison, verification and purchasing decisions. To operate successfully in this new reality, 5THELEMENT.AI developed five foundational innovations that form the AI Delivery Infrastructure™ (ADI).
-</p>
-
-</div>
-</header>
-
-<section>
-<div class="container">
-
-<h2>The AI Delivery Infrastructure™</h2>
-
-<div class="architecture">
-Machine Economy
-       ↓
-
-Economic Twins™
-       ↓
-
-MKT-INDIRECT™
-       ↓
-
-WEB-AI™
-       ↓
-
-AI Sonar™
-       ↓
-
-Mockingbird Handshake™
-       ↓
-
-AI Selection
-+
-Machine Trust
-+
-Business Growth
-</div>
-
-</div>
+<section class="hero">
+  <div class="breadcrumb">5THELEMENT.AI / INNOVATIONS</div>
+  <div class="eyebrow">// innovation-registry · business-readable</div>
+  <h1>Five Foundational <em>Innovations.</em></h1>
+  <p class="hero-copy">
+    The execution layer of the AI Delivery Infrastructure™. These innovations explain how a business can identify better targets, become understandable to AI, be selected by AI systems, observe machine behavior earlier, and reuse AI-ready information without rebuilding the website.
+  </p>
 </section>
 
-<section>
-<div class="container">
-
-<div class="card">
-
-<div class="innovation-number">
-01 • ECONOMIC TWINS™
-</div>
-
-<h2>Economic Discovery Instead Of Lead Generation</h2>
-
-<p>
-Economic Twins™ transforms public fiscal and business registries into a conversational economic intelligence system.
-</p>
-
-<p>
-Rather than manually searching for prospects, the platform identifies companies that are structurally similar to your best existing customers.
-</p>
-
-<p>
-The objective is not lead generation.
-</p>
-
-<blockquote>
-The objective is economic proximity discovery.
-</blockquote>
-
-<h3>What It Does</h3>
-
-<ul>
-<li>Identifies customers similar to existing customers</li>
-<li>Discovers potential partners</li>
-<li>Maps competitors</li>
-<li>Builds economic ecosystems</li>
-<li>Provides conversational exploration of business databases</li>
-</ul>
-
-<h3>One-Line Definition</h3>
-
-<p>
-Economic Twins™ identifies firms structurally similar to your best customers before first contact occurs.
-</p>
-
-</div>
-
-<div class="card">
-
-<div class="innovation-number">
-02 • MKT-INDIRECT™
-</div>
-
-<h2>Marketing For AI-Mediated Markets</h2>
-
-<p>
-Traditional marketing targeted humans.
-</p>
-
-<p>
-MKT-INDIRECT™ targets the systems that influence humans.
-</p>
-
-<div class="architecture">
-Human asks
-      ↓
-AI interprets
-      ↓
-AI evaluates
-      ↓
-AI selects
-      ↓
-AI answers
-      ↓
-Decision begins
-</div>
-
-<p>
-The objective is no longer simply visibility.
-</p>
-
-<blockquote>
-SEO gets you found.
-MKT-INDIRECT™ gets you selected.
-</blockquote>
-
-<h3>Target Audience</h3>
-
-<ul>
-<li>ChatGPT</li>
-<li>Gemini</li>
-<li>Claude</li>
-<li>Perplexity</li>
-<li>AI Copilots</li>
-<li>AI Search Engines</li>
-</ul>
-
-<h3>One-Line Definition</h3>
-
-<p>
-MKT-INDIRECT™ increases the probability that AI systems select your business as a trusted source during decision-making.
-</p>
-
-</div>
-
-<div class="card">
-
-<div class="innovation-number">
-03 • WEB-AI™
-</div>
-
-<h2>Website As Machine-Readable Internet Content</h2>
-
-<p>
-WEB-AI™ is the website model designed for four audiences simultaneously:
-</p>
-
-<ul>
-<li>Humans</li>
-<li>Search Engines</li>
-<li>AI Systems</li>
-<li>Verification Systems</li>
-</ul>
-
-<div class="architecture">
-Before:
-Website = Traffic Destination
-
-After:
-Website = AI Data Source
-</div>
-
-<p>
-WEB-AI transforms traditional websites into structured, understandable, verifiable and reusable sources for AI systems.
-</p>
-
-<h3>WEB-AI Includes</h3>
-
-<ul>
-<li>AI-FIRST</li>
-<li>AI-READY</li>
-<li>AI-TRUST</li>
-<li>AI-AUTH</li>
-</ul>
-
-<h3>One-Line Definition</h3>
-
-<p>
-WEB-AI™ transforms websites into machine-readable infrastructure for the AI era.
-</p>
-
-</div>
-
-<div class="card">
-
-<div class="innovation-number">
-04 • AI SONAR™
-</div>
-
-<h2>Predictive Machine Observability</h2>
-
-<p>
-AI Sonar™ is an EDGE-native predictive observability system focused on hostile machine-intent propagation patterns before visible operational impact occurs.
-</p>
-
-<blockquote>
-A tsunami is not first detected when it reaches the shore.
-It is detected through propagation signals observed across the ocean.
-</blockquote>
-
-<p>
-AI Sonar™ applies the same principle to machine behavior at the Edge.
-</p>
-
-<h3>Observed Signals</h3>
-
-<ul>
-<li>Synchronization anomalies</li>
-<li>Distributed cadence drift</li>
-<li>Retry propagation patterns</li>
-<li>TLS/header coherence</li>
-<li>Machine-intent fingerprints</li>
-<li>Behavioral phase correlation</li>
-<li>Anomalous topology patterns</li>
-</ul>
-
-<h3>Category Position</h3>
-
-<p>
-AI Sonar™ is not an EDR, XDR or SIEM replacement.
-</p>
-
-<p>
-It is an additional observational layer specialized in machine behavior observability.
-</p>
-
-<h3>One-Line Definition</h3>
-
-<p>
-AI Sonar™ detects hostile machine propagation patterns before visible impact escalation occurs.
-</p>
-
-</div>
-
-<div class="card">
-
-<div class="innovation-number">
-05 • MOCKINGBIRD HANDSHAKE™
-</div>
-
-<h2>Define Once. Deploy Everywhere.</h2>
-
-<p>
-Modern websites are unstable environments for AI signals.
-</p>
-
-<p>
-Theme updates, plugin conflicts and CMS changes continuously break implementations.
-</p>
-
-<p>
-Mockingbird Handshake™ separates AI intelligence from the website itself.
-</p>
-
-<div class="architecture">
-Website
-      ↓
-
-Mockingbird Handshake™
-
-      ↓
-
-ADI Edge Layer
-
-      ↓
-
-Signal Registry
-
-      ↓
-
-Cloudflare KV
-</div>
-
-<p>
-The website becomes a presentation layer.
-The intelligence remains inside the infrastructure.
-</p>
-
-<h3>The COBOL Analogy</h3>
-
-<p>
-Like a COBOL program calling a subprogram, the website requests signals from the infrastructure instead of storing everything internally.
-</p>
-
-<h3>Benefits</h3>
-
-<ul>
-<li>Single Source Of Truth</li>
-<li>Platform Independence</li>
-<li>Signal Reuse</li>
-<li>Version Control</li>
-<li>Reduced Maintenance</li>
-</ul>
-
-<h3>One-Line Definition</h3>
-
-<p>
-Mockingbird Handshake™ is an AI signal orchestration architecture that separates machine-readable intelligence from websites and delivers it dynamically from the Edge.
-</p>
-
-</div>
-
-</div>
+<section id="innovations" class="section">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">// innovation-ledger · 2026</div>
+      <h2>Five Foundational <em>Innovations.</em></h2>
+    </div>
+    <div class="meta">The execution layer of the AI Delivery Infrastructure™.</div>
+  </div>
+
+  <div class="ledger-head">
+    <span>#</span><span>code</span><span>innovation</span><span>layer</span><span>shift</span><span></span>
+  </div>
+  <div class="ledger-row"><span class="num">01</span><span class="code">ET-100</span><span class="title">Economic Twins™</span><span class="sub">B2B Fiscal Database</span><span class="for">Economic discovery</span><a href="#economic-twins">cd →</a></div>
+  <div class="ledger-row"><span class="num">02</span><span class="code">MI-200</span><span class="title">MKT-INDIRECT™</span><span class="sub">AI Selection</span><span class="for">Selection-first</span><a href="#mkt-indirect">cd →</a></div>
+  <div class="ledger-row"><span class="num">03</span><span class="code">WA-300</span><span class="title">WEB-AI™</span><span class="sub">Machine-readable web</span><span class="for">AI source</span><a href="#web-ai">cd →</a></div>
+  <div class="ledger-row"><span class="num">04</span><span class="code">AS-400</span><span class="title">AI Sonar™</span><span class="sub">EDGE observability</span><span class="for">Pre-impact detection</span><a href="#ai-sonar">cd →</a></div>
+  <div class="ledger-row"><span class="num">05</span><span class="code">MH-500</span><span class="title">Mockingbird Handshake™</span><span class="sub">Signal orchestration</span><span class="for">Define once</span><a href="#mockingbird-handshake">cd →</a></div>
 </section>
 
-<section class="cta">
-<div class="container">
+<section class="innovation-expanded" id="innovation-explanations">
+  <div class="innovation-expanded-head">
+    <div>
+      <div class="eyebrow">// plain-language · business explanation</div>
+      <h2>What These Innovations <em>Mean For A Business.</em></h2>
+    </div>
+    <div class="meta">
+      The names are technical. The business meaning is simple: better targeting, better AI selection, better machine readability, earlier machine-behavior visibility, and reusable AI information.
+    </div>
+  </div>
 
-<h2>
-The Future Is Machine-Mediated
-</h2>
+  <article class="innovation-block" id="economic-twins">
+    <div>
+      <div class="innovation-name">Economic Twins™</div>
+      <div class="innovation-tagline">Find more companies like your best customers.</div>
+      <div class="innovation-note">B2B Fiscal Database · Economic Discovery</div>
+    </div>
+    <div class="innovation-copy">
+      <p><strong>Every business has customers it would like to clone.</strong> Customers who buy more, stay longer, pay on time and generate more profit.</p>
+      <p>The principle is simple: if your current customers chose your company, it means they found a value proposition that was more relevant to them than the alternatives available on the market. Otherwise, they would have become customers of another company.</p>
+      <blockquote>How do you reach other companies that are similar to your existing customers but have not yet discovered your business?</blockquote>
+      <p>Economic Twins™ starts from the profile of your existing customers, partners or competitors and automatically explores public business registries such as ANAF, Ministry of Finance databases, SIRENE, Companies House and similar sources.</p>
+      <p>The objective is to identify organizations with comparable economic, structural and business characteristics.</p>
+      <p>Instead of searching randomly through millions of companies, the system focuses on organizations that already resemble the businesses most relevant to your company.</p>
+      <p>Once identified, these organizations become the foundation for future commercial activities through MKT-AI™.</p>
+      <p><strong>In simple terms: Economic Twins™ helps discover companies similar to the customers, partners and competitors that already matter to your business.</strong></p>
+    </div>
+  </article>
 
-<p class="small">
-Together these five innovations form the AI Delivery Infrastructure™ — helping businesses become understandable, selectable, verifiable and trusted by both humans and machines.
-</p>
+  <article class="innovation-block" id="mkt-indirect">
+    <div>
+      <div class="innovation-name">MKT-INDIRECT™</div>
+      <div class="innovation-tagline">Become visible to the AI systems that influence customers.</div>
+      <div class="innovation-note">AI Selection · Decision Influence</div>
+    </div>
+    <div class="innovation-copy">
+      <p>Until recently, marketing was designed primarily for humans.</p>
+      <p>A company published information. A customer searched. The customer compared options. The customer decided.</p>
+      <p>Today a new participant sits between businesses and buyers: AI systems.</p>
+      <p>ChatGPT, Gemini, Claude, Perplexity and future Answer Engines increasingly analyze information before humans see it.</p>
+      <blockquote>How do you become one of the sources selected by AI when customers ask questions?</blockquote>
+      <p>MKT-INDIRECT™ was created for this new reality.</p>
+      <p>Instead of focusing exclusively on human visibility, it focuses on increasing the probability that AI systems can:</p>
+      <ul>
+        <li>understand your company;</li>
+        <li>verify your information;</li>
+        <li>compare your offer;</li>
+        <li>evaluate your trust signals;</li>
+        <li>select your company as a source.</li>
+      </ul>
+      <p>This matters when AI systems assist users during their search and decision process.</p>
+      <p><strong>In simple terms: MKT-INDIRECT™ helps your business become visible to the AI systems that increasingly influence customer decisions.</strong></p>
+    </div>
+  </article>
 
-<br>
+  <article class="innovation-block" id="web-ai">
+    <div>
+      <div class="innovation-name">WEB-AI™</div>
+      <div class="innovation-tagline">Keep the website as it is. Add a machine-readable layer for AI.</div>
+      <div class="innovation-note">Machine-readable web · AI Source</div>
+    </div>
+    <div class="innovation-copy">
+      <p>Traditional websites were built for humans.</p>
+      <p>Today they are also read by search engines, AI systems, verification systems, machine-to-machine services, AI crawlers and answer engines.</p>
+      <p>A modern website must therefore serve multiple audiences simultaneously.</p>
+      <p>WEB-AI™ transforms a traditional website into machine-readable Internet content.</p>
+      <p><strong>The goal is not to replace the website.</strong></p>
+      <p><strong>The goal is not to replace Google.</strong></p>
+      <p><strong>The goal is not to change the experience for visitors.</strong></p>
+      <p>Your website continues to function exactly as before for customers, prospects, partners, Google and traditional search engines.</p>
+      <p>We simply add an additional machine-readable layer that helps AI systems understand your business, verify your information, reuse your content, evaluate your trust signals and present your company when users search for solutions.</p>
+      <blockquote>The human experience remains unchanged. Google continues to work exactly as before.</blockquote>
+      <p>We simply add an additional layer of structured information designed specifically for AI systems.</p>
+      <p><strong>In simple terms: WEB-AI™ helps AI understand your business without changing the way humans use your website.</strong></p>
+    </div>
+  </article>
 
-<a href="/platform/" class="button primary">
-Explore The Platform
-</a>
+  <article class="innovation-block" id="ai-sonar">
+    <div>
+      <div class="innovation-name">AI Sonar™</div>
+      <div class="innovation-tagline">See unusual machine behavior before it becomes an obvious problem.</div>
+      <div class="innovation-note">EDGE Observability · Pre-impact Detection</div>
+    </div>
+    <div class="innovation-copy">
+      <p>Most cybersecurity systems react after an event becomes visible.</p>
+      <p>AI Sonar™ focuses on observing signals that appear before visible impact.</p>
+      <p>The concept is inspired by tsunami detection.</p>
+      <p>A tsunami is not first detected when it reaches the shore. It is detected while crossing the ocean.</p>
+      <p>Similarly, AI Sonar™ observes machine behavior at the Edge and looks for unusual propagation patterns generated by bots, crawlers, AI agents, automated systems and distributed machine activity.</p>
+      <p>Its purpose is not to predict the future.</p>
+      <p>Its purpose is to help organizations observe meaningful signals earlier.</p>
+      <blockquote>Detect abnormal machine behavior before operational impact becomes visible.</blockquote>
+      <p><strong>In simple terms: AI Sonar™ helps organizations identify unusual machine behavior before it becomes an obvious operational problem.</strong></p>
+    </div>
+  </article>
 
-<a href="/pilot/" class="button secondary">
-Request A Pilot
-</a>
-
-</div>
+  <article class="innovation-block" id="mockingbird-handshake">
+    <div>
+      <div class="innovation-name">Mockingbird Handshake™</div>
+      <div class="innovation-tagline">Define AI information once. Present it wherever AI needs it.</div>
+      <div class="innovation-note">Signal orchestration · Define once</div>
+    </div>
+    <div class="innovation-copy">
+      <p>Mockingbird is a bird famous for reproducing and retransmitting the songs of other birds.</p>
+      <p>Mockingbird Handshake™ applies the same principle to AI signals.</p>
+      <p>Critical AI information does not need to live inside the website itself. Instead, it can be maintained inside the AI Delivery Infrastructure™.</p>
+      <p>When AI systems visit the website, Mockingbird Handshake™ retrieves, reproduces and presents these signals as if they were part of the website itself.</p>
+      <p>For visitors nothing changes. For Google nothing changes. For the website nothing changes.</p>
+      <p>But for AI systems, the information becomes available exactly when it is needed.</p>
+      <p>This allows organizations to keep their AI intelligence stable even when themes change, plugins change, CMS platforms change, websites are redesigned or technologies evolve.</p>
+      <blockquote>Website remains the stage. ADI™ remains the backstage.</blockquote>
+      <p>Mockingbird Handshake™ transfers the right information at the right moment to the AI systems visiting the website.</p>
+      <p><strong>In simple terms: Mockingbird Handshake™ allows AI information to be defined once, maintained centrally and reused everywhere without depending on a specific website technology.</strong></p>
+    </div>
+  </article>
 </section>
 
-<footer>
-<div class="container">
-© 2026 5THELEMENT.AI • Innovation Registry™ • AI Delivery Infrastructure™
-</div>
-</footer>
+<section id="proof" class="section">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">// proof · verification layer</div>
+      <h2>Proof That Humans And AI <em>Can Verify.</em></h2>
+    </div>
+    <div class="meta">Core innovations are documented through SHA-256 fingerprints, OpenTimestamps files and Bitcoin blockchain attestations where available.</div>
+  </div>
 
+  <table class="proof-table">
+    <thead><tr><th>Innovation</th><th>SHA-256</th><th>OTS</th><th>Bitcoin</th></tr></thead>
+    <tbody>
+      <tr><td>Economic Twins™</td><td class="hash">0716ca58759f65f4760259efe71e99eecf5d22d7471ce4ef7107b49a86c0a077</td><td>economic-twins-canonical-definition.ots</td><td>OpenTimestamps / Bitcoin</td></tr>
+      <tr><td>MKT-INDIRECT™</td><td class="hash">217881f60755e3701496b1cb8690d0fd807362f64f478618385ae23318387499</td><td>mkt-indirect-canonical-definition.ots</td><td>OpenTimestamps / Bitcoin</td></tr>
+      <tr><td>WEB-AI™</td><td class="hash">4d708888ebe4dfb79f36052f6c34735d4516f5501f5402126c300e76892ad5a6</td><td>web-ai-canonical-definition.ots</td><td>OpenTimestamps / Bitcoin</td></tr>
+      <tr><td>AI Sonar™</td><td class="hash">c57529c8c8bfb010483fc00d4cefece739fdf7c624b8cd1bb6b26f9455f156b5</td><td>AI_SONAR_OFFICIAL_DEFINITION_v1.0_CORRECT.md.ots</td><td>Block 949375</td></tr>
+      <tr><td>Mockingbird Handshake™</td><td class="hash">fb3882881d15dd05056140c7928b8b94e2a323e0d0c53dd5fc1c411bc2b16a22</td><td>mockingbird-handshake-spec-v1.0.txt.ots</td><td>Block 949346</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="pilot" class="section">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">// request · pilot</div>
+      <h2>Run A Controlled Entry <em>Into The Machine Economy.</em></h2>
+    </div>
+    <div class="meta">One business problem. One pilot scope. One success criterion. One measurable architecture shift.</div>
+  </div>
+  <a href="/pilot/" class="btn btn-primary">$ ./schedule_pilot_session →</a>
+</section>
+
+<footer class="footer">5THELEMENT.AI · Innovation Registry™ · AiVenture S.R.L. · contact@5thelement.ai</footer>
+</div>
 </body>
 </html>
