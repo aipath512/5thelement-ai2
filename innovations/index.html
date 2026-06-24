@@ -1,1 +1,382 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><title>Innovations — 5THELEMENT.AI</title><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="The five foundational innovations behind 5THELEMENT.AI."/><link rel="canonical" href="https://5thelement.ai/innovations/"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet"/><link rel="stylesheet" href="/assets/ledger.css"/><script defer src="/assets/site.js"></script><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://5thelement.ai/#organization", "name": "5THELEMENT.AI", "legalName": "AiVenture S.R.L.", "url": "https://5thelement.ai", "email": "contact@5thelement.ai"}, {"@type": "WebSite", "@id": "https://5thelement.ai/#website", "name": "5THELEMENT.AI", "url": "https://5thelement.ai", "publisher": {"@id": "https://5thelement.ai/#organization"}}, {"@type": "WebPage", "@id": "https://5thelement.ai/innovations/#webpage", "name": "Innovations — 5THELEMENT.AI", "url": "https://5thelement.ai/innovations/", "description": "The five foundational innovations behind 5THELEMENT.AI.", "isPartOf": {"@id": "https://5thelement.ai/#website"}}]}</script></head><body><div class="status-bar"><span><span class="blink" style="color:var(--gold);">●</span>&nbsp; live · 5THELEMENT.AI · Machine Economy Infrastructure™</span><span>Humans + machines search · compare · verify · decide together</span><span><span style="color:var(--gold);">RO</span><span style="color:var(--dim);"> / </span>EN</span></div><div class="l-page"><nav class="main-nav"><a href="/" class="brand"><div class="brand-mark">5</div><div style="display:flex;flex-direction:column;line-height:1.1;"><span class="brand-title">5THELEMENT.AI</span><span class="brand-sub">machine economy · ADI</span></div></a><div class="nav-links"><a href="/platform/">platform<span>.ts</span></a><a href="/innovations/">innovations<span>.ts</span></a><a href="/proof-center/">proof<span>.proof</span></a><a href="/resources/">resources<span>.md</span></a><a href="/about/">about<span>.ts</span></a><a href="/request-a-pilot/">pilot<span>.sh</span></a></div><a href="/request-a-pilot/" class="btn btn-primary">$ ./request_pilot</a></nav><section class="hero-grid" style="grid-template-columns:1fr;"><div><div class="hero-meta"><span style="color:var(--gold);">● innovations</span><span>Machine Economy Infrastructure™</span></div><h1><span class="h1-line">Innovations</span></h1><p class="hero-copy">The five foundational innovations behind 5THELEMENT.AI.</p></div></section><section class="section"><div class="section-head"><div><div class="eyebrow">// innovations · overview</div><h2>Innovations<br><em>Reference Page.</em></h2></div><div class="meta">The five foundational innovations behind 5THELEMENT.AI.</div></div><div class="trust-grid"><div><h3 style="color:var(--gold);margin-bottom:18px;">Purpose</h3><ul><li>Visible content for humans.</li><li>Structured content for AI systems.</li><li>Stable URL for breadcrumbs, glossary, schema and proof references.</li></ul></div><div><h3 style="color:var(--gold);margin-bottom:18px;">Architecture Role</h3><ul><li>Part of the 5THELEMENT.AI Machine Economy architecture.</li><li>Connected to ADI™, Economic Twins™, MKT-INDIRECT™, WEB-AI™, AI Sonar™ and Mockingbird Handshake™.</li></ul></div></div></section><footer class="footer"><div class="footer-grid"><div><div style="color:var(--gold);font-family:var(--serif);font-size:24px;">5THELEMENT.AI</div><p>Machine Economy Infrastructure™ by AiVenture S.R.L.</p><p>contact@5thelement.ai</p></div><div><p>Economic Twins™ · MKT-INDIRECT™ · WEB-AI™ · AI Sonar™ · Mockingbird Handshake™</p><p><a href="/ai.json">ai.json</a> · <a href="/ai-proof.json">ai-proof.json</a> · <a href="/llms.txt">llms.txt</a> · <a href="/sitemap.xml">sitemap.xml</a></p></div></div></footer></div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>5THELEMENT.AI — Machine Economy Infrastructure</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Operate successfully in a market where humans and machines search, compare, verify and decide together." />
+<link rel="canonical" href="https://5thelement.ai/" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+
+<style>
+:root{
+  --ink:#090908;
+  --ink-panel:#10100e;
+  --text:#f1eee6;
+  --muted:#b9b09e;
+  --dim:#7e7768;
+  --dimmer:#2b2923;
+  --gold:#c9a961;
+  --gold-deep:#9d8144;
+  --mono:"JetBrains Mono",monospace;
+  --serif:"Instrument Serif","Playfair Display",Georgia,serif;
+  --sans:Inter,system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ink);color:var(--text);font-family:var(--sans);font-weight:300}
+a{color:inherit}
+.status-bar{border-bottom:1px solid var(--dimmer);padding:10px 56px;font-family:var(--mono);font-size:11px;color:var(--dim);display:flex;justify-content:space-between;background:var(--ink)}
+.main-nav{display:flex;justify-content:space-between;align-items:center;padding:24px 56px;border-bottom:1px solid var(--dimmer);background:rgba(9,9,8,.9);position:sticky;top:0;z-index:50}
+.brand{display:flex;gap:14px;text-decoration:none}
+.brand-mark{width:38px;height:38px;border:1.5px solid var(--gold);display:grid;place-items:center;font-family:var(--serif);font-size:24px;color:var(--gold);font-style:italic}
+.brand-title{font-family:var(--serif);font-size:21px}
+.brand-sub{font-family:var(--mono);font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.14em}
+.nav-links{display:flex;gap:30px;font-family:var(--mono);font-size:12px}
+.nav-links a{text-decoration:none}
+.nav-links span{color:var(--dim)}
+.btn{display:inline-flex;padding:12px 16px;border:1px solid var(--dimmer);text-decoration:none;font-family:var(--mono);font-size:12px}
+.btn-primary{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.hero-grid{padding:64px 56px 72px;display:grid;grid-template-columns:7fr 5fr;gap:64px}
+.hero-meta,.eyebrow{font-family:var(--mono);font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:.18em;margin-bottom:30px}
+h1,h2,h3{font-weight:400;margin:0}
+h1{font-family:var(--serif);line-height:.88;letter-spacing:-.03em}
+.h1-line{font-size:92px;display:block}
+.h1-gold{font-style:italic;color:var(--gold)}
+.hero-copy{font-size:22px;line-height:1.4;margin:32px 0 0;max-width:650px}
+.hero-portrait{border:1px solid var(--dimmer);background:var(--ink-panel);padding:22px}
+.portrait-meta{font-family:var(--mono);font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.18em;margin-bottom:18px;display:flex;justify-content:space-between}
+.hero-image-wrap{width:100%;aspect-ratio:1/1;overflow:hidden;border:1px solid var(--dimmer)}
+.hero-image{width:100%;height:100%;object-fit:cover;display:block}
+.aside-name{font-family:var(--serif);font-size:30px;line-height:1.05;margin-top:20px}
+.aside-name span{font-style:italic;color:var(--gold);font-size:22px}
+.aside-quote{font-family:var(--serif);font-style:italic;font-size:19px;line-height:1.45;margin:20px 0 0;padding-left:16px;border-left:2px solid var(--gold)}
+.balance-panel{margin-top:48px;border:1px solid var(--dimmer);background:var(--ink-panel)}
+.panel-head{padding:12px 20px;border-bottom:1px solid var(--dimmer);display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.14em}
+.balance-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.balance-cell{padding:24px 20px 22px;border-right:1px solid var(--dimmer)}
+.balance-cell:last-child{border-right:0}
+.big-stat{font-family:var(--serif);font-size:56px;color:var(--gold);line-height:1}
+.stat-label{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.12em}
+.stat-sub{font-family:var(--mono);font-size:10px;color:var(--dim)}
+.section{padding:82px 56px;border-top:1px solid var(--dimmer)}
+.section-head{display:grid;grid-template-columns:7fr 5fr;gap:64px;margin-bottom:56px}
+.section h2{font-family:var(--serif);font-size:64px;line-height:.95;letter-spacing:-.025em}
+.section h2 em{color:var(--gold);font-style:italic}
+.meta{font-size:18px;line-height:1.55;color:var(--muted)}
+.trust-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+ul{margin:0;padding-left:20px;color:var(--muted);line-height:1.8}
+.ledger-head,.ledger-row{display:grid;grid-template-columns:60px 110px 1.7fr 1.1fr 1fr 80px;gap:24px}
+.ledger-head{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--dim);padding-bottom:14px;border-bottom:1px solid var(--gold)}
+.ledger-row{padding:22px 0;border-bottom:1px solid var(--dimmer);align-items:baseline}
+.num{font-family:var(--serif);font-style:italic;color:var(--gold-deep);font-size:22px}
+.code{font-family:var(--mono);font-size:12px;color:var(--gold)}
+.title{font-family:var(--serif);font-size:26px}
+.sub{font-family:var(--serif);font-style:italic;font-size:17px;color:var(--dim)}
+.for{font-family:var(--mono);font-size:12px}
+.innovation-explain-grid{display:grid;grid-template-columns:1fr;gap:1px;background:var(--dimmer);border:1px solid var(--dimmer)}
+.innovation-explain{background:var(--ink);padding:34px 38px;display:grid;grid-template-columns:220px 1fr;gap:32px}
+.innovation-code{font-family:var(--mono);font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:.18em}
+.innovation-explain h3{font-family:var(--serif);font-size:34px;margin:0 0 18px}
+.innovation-explain p{font-size:16px;line-height:1.6;color:var(--muted);margin:0 0 12px}
+.innovation-explain strong{color:var(--gold);font-weight:500}
+.proof-table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12px}
+.proof-table th{color:var(--gold);font-weight:400;text-transform:uppercase;letter-spacing:.14em;text-align:left;border-bottom:1px solid var(--gold);padding:12px}
+.proof-table td{border-bottom:1px solid var(--dimmer);padding:14px 12px;color:var(--muted);vertical-align:top}
+.hash{word-break:break-all;color:var(--text)}
+.footer{padding:54px 56px;border-top:1px solid var(--dimmer);font-family:var(--mono);font-size:12px;color:var(--dim)}
+@media(max-width:980px){
+  .status-bar{padding:10px 20px;display:block}
+  .main-nav{padding:18px 20px;flex-direction:column;align-items:flex-start;gap:18px}
+  .nav-links{flex-wrap:wrap;gap:14px}
+  .hero-grid,.section-head,.trust-grid,.innovation-explain{grid-template-columns:1fr}
+  .hero-grid,.section,.footer{padding-left:20px;padding-right:20px}
+  .h1-line{font-size:58px}
+  .section h2{font-size:44px}
+  .balance-grid{grid-template-columns:1fr}
+  .balance-cell{border-right:0;border-bottom:1px solid var(--dimmer)}
+  .ledger-head{display:none}
+  .ledger-row{grid-template-columns:1fr;gap:8px}
+}
+</style>
+</head>
+
+<body>
+<div class="status-bar">
+  <span><span style="color:var(--gold);">●</span> live · 5THELEMENT.AI · Machine Economy Infrastructure™</span>
+  <span>Humans + machines search · compare · verify · decide together</span>
+  <span style="color:var(--gold);">RO / EN</span>
+</div>
+
+<nav class="main-nav">
+  <a href="/" class="brand">
+    <div class="brand-mark">5</div>
+    <div>
+      <div class="brand-title">5THELEMENT.AI</div>
+      <div class="brand-sub">machine economy · ADI</div>
+    </div>
+  </a>
+  <div class="nav-links">
+    <a href="#platform">platform<span>.ts</span></a>
+    <a href="#innovations">innovations<span>.ts</span></a>
+    <a href="#proof">proof<span>.proof</span></a>
+    <a href="#resources">resources<span>.md</span></a>
+    <a href="#about">about<span>.ts</span></a>
+    <a href="#pilot">pilot<span>.sh</span></a>
+  </div>
+  <a href="#pilot" class="btn btn-primary">$ ./request_pilot</a>
+</nav>
+
+<section id="top" class="hero-grid">
+  <div>
+    <div class="hero-meta">
+      <span>● live · machine economy</span>
+      <span>ADI · Economic Twins™ · MKT-INDIRECT™</span>
+      <span>SHA-256 · OTS · Bitcoin proof</span>
+    </div>
+
+    <h1>
+      <span class="h1-line">The Internet</span>
+      <span class="h1-line h1-gold">Changed.</span>
+      <span class="h1-line">Most Businesses</span>
+      <span class="h1-line h1-gold">Didn't.</span>
+    </h1>
+
+    <p class="hero-copy">
+      Operate successfully in a market where humans and machines search, compare, verify and decide together.
+      <br><br>
+      Your buyers are no longer alone. They are assisted by AI agents, crawlers, answer engines, copilots and autonomous systems.
+    </p>
+
+    <div class="balance-panel">
+      <div class="panel-head">
+        <span>~ /machine-economy/status.md</span>
+        <span>● 4 indicators</span>
+      </div>
+      <div class="balance-grid">
+        <div class="balance-cell"><div class="big-stat">51%</div><div class="stat-label">Machine</div><div class="stat-sub">automated traffic</div></div>
+        <div class="balance-cell"><div class="big-stat">49%</div><div class="stat-label">Human</div><div class="stat-sub">human traffic</div></div>
+        <div class="balance-cell"><div class="big-stat">5</div><div class="stat-label">Innovations</div><div class="stat-sub">foundational ADI layers</div></div>
+        <div class="balance-cell"><div class="big-stat">ADI</div><div class="stat-label">Architecture</div><div class="stat-sub">AI Delivery Infrastructure™</div></div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:12px;margin-top:32px;flex-wrap:wrap;">
+      <a href="#platform" class="btn btn-primary">$ ./explore_platform →</a>
+      <a href="#pilot" class="btn">$ ./request_pilot</a>
+    </div>
+  </div>
+
+  <aside>
+    <div class="hero-portrait">
+      <div class="portrait-meta">
+        <span>founder · architecture</span>
+        <span style="color:var(--gold);">verified ✓</span>
+      </div>
+      <div class="hero-image-wrap">
+        <img src="assets/hero-image.webp" alt="Dan Ionescu / Dan Ionesco — 5THELEMENT.AI" class="hero-image" />
+      </div>
+      <div class="aside-name">
+        Dan Ionescu / Dan Ionesco<br>
+        <span>AiVenture S.R.L. · 5THELEMENT.AI</span>
+      </div>
+      <p class="aside-quote">
+        “The problem is no longer finding information. The problem is knowing what changed, what matters, and what action should be taken.”
+      </p>
+    </div>
+  </aside>
+</section>
+
+<section id="changed" class="section">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">// machine-economy · what changed</div>
+      <h2>The Buying Journey <em>Has Changed.</em></h2>
+    </div>
+    <div class="meta">
+      Your campaigns no longer speak only to humans. They speak to the systems that influence what humans see.
+    </div>
+  </div>
+
+  <div class="trust-grid">
+    <div>
+      <h3 style="color:var(--gold);margin-bottom:18px;">Yesterday</h3>
+      <ul>
+        <li>Company launches campaigns</li>
+        <li>Humans search</li>
+        <li>Humans compare</li>
+        <li>Humans verify</li>
+        <li>Humans decide</li>
+        <li>SEO and ads dominate the funnel</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="color:var(--gold);margin-bottom:18px;">Today</h3>
+      <ul>
+        <li>Company launches campaigns</li>
+        <li>Humans and machines explore the market together</li>
+        <li>AI systems compare suppliers</li>
+        <li>AI systems evaluate trust</li>
+        <li>AI systems influence recommendations</li>
+        <li>Selection Engineering™ becomes the new discipline</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="innovations" class="section">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">// innovation-ledger · 2026</div>
+      <h2>Five Foundational <em>Innovations.</em></h2>
+    </div>
+    <div class="meta">
+      The execution layer of the AI Delivery Infrastructure™.
+    </div>
+  </div>
+
+  <div class="ledger-head">
+    <span>#</span><span>code</span><span>innovation</span><span>layer</span><span>shift</span><span></span>
+  </div>
+
+  <div class="ledger-row"><span class="num">01</span><span class="code">ET-100</span><span class="title">Economic Twins™</span><span class="sub">B2B Fiscal Database</span><span class="for">Economic discovery</span><span>cd →</span></div>
+  <div class="ledger-row"><span class="num">02</span><span class="code">MI-200</span><span class="title">MKT-INDIRECT™</span><span class="sub">AI Selection</span><span class="for">Selection-first</span><span>cd →</span></div>
+  <div class="ledger-row"><span class="num">03</span><span class="code">WA-300</span><span class="title">WEB-AI™</span><span class="sub">Machine-readable web</span><span class="for">AI source</span><span>cd →</span></div>
+  <div class="ledger-row"><span class="num">04</span><span class="code">AS-400</span><span class="title">AI Sonar™</span><span class="sub">EDGE observability</span><span class="for">Pre-impact detection</span><span>cd →</span></div>
+  <div class="ledger-row"><span class="num">05</span><span class="code">MH-500</span><span class="title">Mockingbird Handshake™</span><span class="sub">Signal orchestration</span><span class="for">Define once</span><span>cd →</span></div>
+</section>
+
+<section id="innovation-explained" class="section">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">// innovation · explained before proof</div>
+      <h2>What Each Innovation <em>Actually Means.</em></h2>
+    </div>
+    <div class="meta">
+      Before SHA-256, OTS and Bitcoin proof, each innovation must be understandable by a business owner, a developer and an AI system.
+    </div>
+  </div>
+
+  <div class="innovation-explain-grid">
+
+    <article class="innovation-explain">
+      <div class="innovation-code">01 · ET-100</div>
+      <div>
+        <h3>Economic Twins™ B2B Fiscal Database</h3>
+        <p><strong>What it is:</strong> a vectorial economic similarity engine that transforms active B2B companies into comparable economic signatures.</p>
+        <p><strong>Why it matters:</strong> the company no longer waits to be found. It can identify firms structurally similar to its best customers, plus partners, competitors and ecosystems.</p>
+        <p><strong>How it works:</strong> fiscal and structural company data are converted into vectors, then compared using similarity logic.</p>
+        <p><strong>Output:</strong> ranked Economic Twin Customers™, Partners™, Competitors™ and Ecosystems™.</p>
+        <p><strong>Verify:</strong> canonical definition, SHA-256 fingerprint, OTS proof and Bitcoin attestation.</p>
+      </div>
+    </article>
+
+    <article class="innovation-explain">
+      <div class="innovation-code">02 · MI-200</div>
+      <div>
+        <h3>MKT-INDIRECT™</h3>
+        <p><strong>What it is:</strong> marketing engineered for AI systems that select information before humans see it.</p>
+        <p><strong>Why it matters:</strong> buyers increasingly ask AI systems, copilots and answer engines before visiting websites.</p>
+        <p><strong>How it works:</strong> the business structures content, trust signals and answers so AI systems can understand, verify and select it.</p>
+        <p><strong>Output:</strong> improved eligibility for AI answer selection, comparison and recommendation contexts.</p>
+        <p><strong>Formula:</strong> Human asks → AI selects → AI answers → Business appears.</p>
+      </div>
+    </article>
+
+    <article class="innovation-explain">
+      <div class="innovation-code">03 · WA-300</div>
+      <div>
+        <h3>WEB-AI™</h3>
+        <p><strong>What it is:</strong> the website transformed into machine-readable Internet content.</p>
+        <p><strong>Why it matters:</strong> a website is no longer only a visual brochure. It must also function as a structured source for AI systems.</p>
+        <p><strong>How it works:</strong> visible content, schema, AI files, FAQs, entity data and proof references are aligned.</p>
+        <p><strong>Output:</strong> a site that is understandable, verifiable, reusable and selectable by humans and machines.</p>
+      </div>
+    </article>
+
+    <article class="innovation-explain">
+      <div class="innovation-code">04 · AS-400</div>
+      <div>
+        <h3>AI Sonar™</h3>
+        <p><strong>What it is:</strong> a predictive EDGE observability layer for machine-to-machine behavior.</p>
+        <p><strong>Why it matters:</strong> machine traffic is not only search and crawling. It can also include hostile coordination, probing and attack preparation.</p>
+        <p><strong>How it works:</strong> AI Sonar™ observes distributed cadence, synchronization anomalies, route exploration, header/TLS coherence and propagation fingerprints.</p>
+        <p><strong>Output:</strong> pre-impact machine behavior scoring and Human-in-the-Loop security awareness.</p>
+        <p><strong>Positioning:</strong> not a replacement for EDR, XDR or SIEM; an additional EDGE-level observation layer.</p>
+      </div>
+    </article>
+
+    <article class="innovation-explain">
+      <div class="innovation-code">05 · MH-500</div>
+      <div>
+        <h3>Mockingbird Handshake™</h3>
+        <p><strong>What it is:</strong> an AI signal orchestration and decoupling architecture.</p>
+        <p><strong>Why it matters:</strong> WordPress, themes, plugins and SEO tools can rewrite or break AI signals.</p>
+        <p><strong>How it works:</strong> AI signals are defined once, stored outside the website layer, then called by the page, Edge worker, MU plugin or AI endpoint.</p>
+        <p><strong>Output:</strong> reusable AI signal infrastructure across CMS, Edge, static pages and machine-readable files.</p>
+        <p><strong>Principle:</strong> define once, verify once, deploy everywhere.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="proof" class="section">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">// proof · verification layer</div>
+      <h2>Proof That Humans And AI <em>Can Verify.</em></h2>
+    </div>
+    <div class="meta">
+      Core innovations are documented through SHA-256 fingerprints, OpenTimestamps files and Bitcoin blockchain attestations where available.
+    </div>
+  </div>
+
+  <table class="proof-table">
+    <thead>
+      <tr><th>Innovation</th><th>SHA-256</th><th>OTS</th><th>Bitcoin</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Economic Twins™</td>
+        <td class="hash">0716ca58759f65f4760259efe71e99eecf5d22d7471ce4ef7107b49a86c0a077</td>
+        <td>economic-twins-canonical-definition.ots</td>
+        <td>OpenTimestamps / Bitcoin</td>
+      </tr>
+      <tr>
+        <td>AI Sonar™</td>
+        <td class="hash">c57529c8c8bfb010483fc00d4cefece739fdf7c624b8cd1bb6b26f9455f156b5</td>
+        <td>AI_SONAR_OFFICIAL_DEFINITION_v1.0_CORRECT.md.ots</td>
+        <td>Block 949375</td>
+      </tr>
+      <tr>
+        <td>Mockingbird Handshake™</td>
+        <td class="hash">fb3882881d15dd05056140c7928b8b94e2a323e0d0c53dd5fc1c411bc2b16a22</td>
+        <td>mockingbird-handshake-spec-v1.0.txt.ots</td>
+        <td>Block 949346</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="pilot" class="section">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">// request · pilot</div>
+      <h2>Run A Controlled Entry <em>Into The Machine Economy.</em></h2>
+    </div>
+    <div class="meta">
+      One business problem. One pilot scope. One success criterion. One measurable architecture shift.
+    </div>
+  </div>
+  <a href="mailto:contact@5thelement.ai?subject=Machine Economy Pilot" class="btn btn-primary">$ ./schedule_pilot_session →</a>
+</section>
+
+<footer class="footer">
+  5THELEMENT.AI · Machine Economy Infrastructure™ · AiVenture S.R.L. · contact@5thelement.ai
+</footer>
+
+</body>
+</html>
