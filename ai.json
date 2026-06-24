@@ -1,0 +1,73 @@
+{
+  "schema": "5thelement-ai-profile-v1",
+  "version": "1.0",
+  "name": "5THELEMENT.AI",
+  "url": "https://5thelement.ai",
+  "operator": "AiVenture S.R.L.",
+  "contact": "contact@5thelement.ai",
+  "positioning": "Machine Economy Infrastructure™",
+  "thesis": "Operate successfully in a market where humans and machines search, compare, verify and decide together.",
+  "innovations": [
+    {
+      "num": "01",
+      "code": "ET-100",
+      "name": "Economic Twins™",
+      "slug": "economic-twins",
+      "sub": "B2B Fiscal Database",
+      "short": "Transforms the B2B market into an economic vector space and identifies customers, partners, competitors, ecosystems and opportunities based on structural economic proximity.",
+      "shift": "Not lead generation. Economic discovery.",
+      "sha": "0716ca58759f65f4760259efe71e99eecf5d22d7471ce4ef7107b49a86c0a077",
+      "ots": "economic-twins-canonical-definition.ots",
+      "btc": "Bitcoin anchored via OpenTimestamps"
+    },
+    {
+      "num": "02",
+      "code": "MI-200",
+      "name": "MKT-INDIRECT™",
+      "slug": "mkt-indirect",
+      "sub": "Marketing For AI Selection",
+      "short": "Marketing engineered for the AI systems that filter information before the human layer. Human asks, AI selects, AI answers, business appears.",
+      "shift": "Optimize for AI selection, not only for clicks.",
+      "sha": "TBD",
+      "ots": "mkt-indirect-canonical-definition.ots",
+      "btc": "TBD"
+    },
+    {
+      "num": "03",
+      "code": "WA-300",
+      "name": "WEB-AI™",
+      "slug": "web-ai",
+      "sub": "Website As Machine-Readable Internet Content",
+      "short": "Turns a website into a structured, verifiable, reusable AI source — not just a visual destination for browsers.",
+      "shift": "Not website. AI source.",
+      "sha": "TBD",
+      "ots": "web-ai-canonical-definition.ots",
+      "btc": "TBD"
+    },
+    {
+      "num": "04",
+      "code": "AS-400",
+      "name": "AI Sonar™",
+      "slug": "ai-sonar",
+      "sub": "Predictive EDGE Machine Observability",
+      "short": "A predictive EDGE cybersecurity observability system focused on detecting hostile machine-intent propagation patterns before visible attack impact occurs.",
+      "shift": "Pre-impact machine behavior and EDGE-level machine trust analysis.",
+      "sha": "c57529c8c8bfb010483fc00d4cefece739fdf7c624b8cd1bb6b26f9455f156b5",
+      "ots": "AI_SONAR_OFFICIAL_DEFINITION_v1.0_CORRECT.md.ots",
+      "btc": "949375"
+    },
+    {
+      "num": "05",
+      "code": "MH-500",
+      "name": "Mockingbird Handshake™",
+      "slug": "mockingbird-handshake",
+      "sub": "AI Signal Orchestration And Decoupling",
+      "short": "Defines AI signals once, stores them outside the fragile website layer, and deploys them across WordPress, Edge, AI files and machine-readable endpoints.",
+      "shift": "Infrastructure should not break when a plugin updates.",
+      "sha": "fb3882881d15dd05056140c7928b8b94e2a323e0d0c53dd5fc1c411bc2b16a22",
+      "ots": "mockingbird-handshake-spec-v1.0.txt.ots",
+      "btc": "949346"
+    }
+  ],
+  "generated": "2026-06-24"
+}

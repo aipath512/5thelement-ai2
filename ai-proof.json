@@ -1,0 +1,46 @@
+{
+  "schema": "5thelement-ai-proof-v1",
+  "version": "1.0",
+  "proof_layer": [
+    "SHA-256",
+    "OpenTimestamps",
+    "Bitcoin blockchain attestation"
+  ],
+  "innovations": [
+    {
+      "name": "Economic Twins™",
+      "code": "ET-100",
+      "sha": "0716ca58759f65f4760259efe71e99eecf5d22d7471ce4ef7107b49a86c0a077",
+      "ots": "economic-twins-canonical-definition.ots",
+      "btc": "Bitcoin anchored via OpenTimestamps"
+    },
+    {
+      "name": "MKT-INDIRECT™",
+      "code": "MI-200",
+      "sha": "TBD",
+      "ots": "mkt-indirect-canonical-definition.ots",
+      "btc": "TBD"
+    },
+    {
+      "name": "WEB-AI™",
+      "code": "WA-300",
+      "sha": "TBD",
+      "ots": "web-ai-canonical-definition.ots",
+      "btc": "TBD"
+    },
+    {
+      "name": "AI Sonar™",
+      "code": "AS-400",
+      "sha": "c57529c8c8bfb010483fc00d4cefece739fdf7c624b8cd1bb6b26f9455f156b5",
+      "ots": "AI_SONAR_OFFICIAL_DEFINITION_v1.0_CORRECT.md.ots",
+      "btc": "949375"
+    },
+    {
+      "name": "Mockingbird Handshake™",
+      "code": "MH-500",
+      "sha": "fb3882881d15dd05056140c7928b8b94e2a323e0d0c53dd5fc1c411bc2b16a22",
+      "ots": "mockingbird-handshake-spec-v1.0.txt.ots",
+      "btc": "949346"
+    }
+  ]
+}
